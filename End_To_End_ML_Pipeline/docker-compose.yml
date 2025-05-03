@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  end_to_end_ml_pipeline:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python Hello_World.py
