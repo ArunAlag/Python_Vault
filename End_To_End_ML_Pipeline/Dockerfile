@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 5. Copy the rest of the current directory into the container
 COPY . .
 
-# 6. Run Command to start the file
-CMD ["python","Hello_World.py"]
+# 6. Default Command
+CMD ["python","Factory_Design_Pattern.py"]
